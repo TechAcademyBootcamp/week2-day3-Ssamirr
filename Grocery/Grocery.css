@@ -1,0 +1,115 @@
+.body{
+   
+}
+.nav {
+    margin: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.button1 {
+    background-color: rgb(0, 158, 127);
+}
+
+.grocery {
+    color: rgb(0, 158, 127) !important;
+}
+
+.list2 a {
+    text-decoration: none;
+}
+
+.list2 a:hover {
+    color: rgb(0, 158, 127) !important;
+    transition-duration: 0.3s;
+}
+
+.list3 a:hover {
+    color: rgb(0, 158, 127) !important;
+}
+
+.button1:hover {
+    background-color: rgb(0, 158, 127) !important;
+}
+.welcome{
+    color:  rgb(0, 158, 127);
+}
+.jbutton{
+    padding: 6px 70px 6px 70px;
+    border-radius: 5px;
+    background-color: rgb(0, 158, 127);
+    color: white;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.jbutton1{
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+    background-color: rgb(66, 103, 178);
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: white;
+}
+.jbutton2{
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    
+    color: white;
+}
+.linkjoin{
+    color:  rgb(0, 158, 127);
+}
+.joinfooter{
+    color: rgb(0, 158, 127);
+}
+.backimage{
+    background-image: url(grocery-f1565ac25de02b9295dccc2da13004ab.png);
+    width: 100%;
+min-height: 100vh;
+display: flex;
+-moz-box-align: center;
+align-items: center;
+overflow: hidden;
+background-position: center bottom;
+background-repeat: no-repeat;
+background-color: rgb(247, 247, 247);
+background-size: cover;
+    
+    }
+    .sizep{
+        font-size: 40px;
+        }
+        .grocery1{
+            color: rgb(0, 158, 127);
+            height: 50px;
+            border-style: none;
+        }
+        .all{
+            position: absolute;
+            top: 200px;
+            left: 300px;
+            width: 700px;
+            text-align: center;
+            align-items: center;
+            }
+    .search{
+        height: 50px;
+        width: 130px;
+        border-radius: 0px 8px 8px 0px;
+        background-color: rgb(0, 158, 127);
+        color: white;
+        border-style: none;
+    }
+    .inputgrocery{
+        height: 50px;
+        border-style: none;
+    }
+    .img{
+        width: 150px;
+        height: 140px;
+        margin-top: 15px;
+    }
+    
