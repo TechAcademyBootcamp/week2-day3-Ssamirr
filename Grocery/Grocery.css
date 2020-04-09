@@ -1,5 +1,50 @@
-.body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 200px;
+   overflow-x: hidden;
+   background: rgb(245, 243, 243);
+}
+.hamburger .burger{
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 4px;
+    }
+.searchbutton a{
+   color: black; 
+}
+.hlist{
+    list-style-type: none;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.hlist a{
+    text-decoration: none;
+    color: black;
+}
+.hlist a:hover{
+    color: rgb(0, 158, 127);
+    transition: 0.3s;
+}
+
+.menuhamburger{
+    display: none;
+    }
+.hamburger{
+    display: none;
+    
+}
+
+.menuimg{
+    display: none;
    
+}
+.searchbutton{
+    display: none;
+    
 }
 .nav {
     margin: auto;
@@ -8,9 +53,13 @@
     padding-left: 40px;
     padding-right: 40px;
 }
-
+.basliq{
+   z-index: 100;
+}
 .button1 {
     background-color: rgb(0, 158, 127);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .grocery {
@@ -35,67 +84,93 @@
 }
 .welcome{
     color:  rgb(0, 158, 127);
+    font-family: 'Lato', sans-serif !important ;
 }
+.text-secondary{
+    font-family: 'Lato', sans-serif;
+}
+.joinj{
+        width: 300px;
+        height: 50px;
+        border: 1px solid rgb(241, 241, 241);
+        border-radius: 6px;
+        background: rgb(247, 247, 247);
+    }  
+.joinj:focus{
+        border-color: rgb(0, 158, 127);
+        transition: 0.3s;
+    }
 .jbutton{
     padding: 6px 70px 6px 70px;
-    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 6px;
     background-color: rgb(0, 158, 127);
     color: white;
     margin-bottom: 8px;
     margin-top: 8px;
 }
 .jbutton1{
+    font-family: 'Lato', sans-serif;
+    width: 300px;
+    height: 50px;
     padding: 7px 10px 7px 10px;
-    border-radius: 5px;
+    border-radius: 6px;
     background-color: rgb(66, 103, 178);
     margin-bottom: 8px;
     margin-top: 8px;
     color: white;
 }
 .jbutton2{
+    font-family: 'Lato', sans-serif;
     padding: 7px 20px 7px 20px;
-    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    border-radius: 6px;
     margin-bottom: 8px;
     
     color: white;
 }
 .linkjoin{
     color:  rgb(0, 158, 127);
+    
 }
 .joinfooter{
     color: rgb(0, 158, 127);
 }
-.backimage{
-    background-image: url(grocery-f1565ac25de02b9295dccc2da13004ab.png);
-    width: 100%;
-min-height: 100vh;
-display: flex;
--moz-box-align: center;
-align-items: center;
-overflow: hidden;
-background-position: center bottom;
-background-repeat: no-repeat;
-background-color: rgb(247, 247, 247);
-background-size: cover;
-    
-    }
+
+  ::placeholder { 
+      
+    color: black;
+    opacity: 0.2; 
+  }
     .sizep{
-        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
         }
         .grocery1{
             color: rgb(0, 158, 127);
             height: 50px;
             border-style: none;
         }
-        .all{
-            position: absolute;
-            top: 200px;
-            left: 300px;
-            width: 700px;
-            text-align: center;
-            align-items: center;
-            }
-    .search{
+
+.all{
+        background-image: url(grocery-f1565ac25de02b9295dccc2da13004ab.png);
+        max-width: 100%;
+        min-height: 80vh;
+        display: flex;
+        -moz-box-align: center;
+        align-items: center;
+        overflow: hidden;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-color: rgb(247, 247, 247);
+        background-size: cover;
+        flex-direction: column;
+        justify-content: center;
+        }
+        .search{
         height: 50px;
         width: 130px;
         border-radius: 0px 8px 8px 0px;
@@ -103,13 +178,97 @@ background-size: cover;
         color: white;
         border-style: none;
     }
+    .orta{
+        max-width: 700px;
+    }
     .inputgrocery{
         height: 50px;
         border-style: none;
     }
     .img{
-        width: 150px;
-        height: 140px;
-        margin-top: 15px;
+        width: 100%;
+        width: 350px;
+        height: 150px;
+        padding: 10px;
+    }
+    .left li a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .left li a:hover{
+        color: rgb(0, 158, 127) !important;
+        transition: 0.3s;
+         }
+    .althisse{
+        color: rgb(0, 158, 127) !important;
+    }
+    .rounded-pill.border.bg-white.p-2.pr-4.pl-4:hover{
+        background: rgb(0, 158, 127) !important;
+        transition: 0.3s;
+         color: white;
+    }
+    .h6{
+        font-size: 14px;
+        opacity: 0.7; 
+         }
+         #aaa{
+             justify-content: space-evenly;
+         }
+    .loadmore{
+        color: rgb(0, 158, 127) ;
+        text-decoration: none !important;
+        border-radius: 10px;
+        }
+        .load1{
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+    .loadmore:hover{
+        color: rgb(0, 158, 127);
+        }  
+    .ashagi{
+        flex-wrap: wrap;
+    }
+    
+
+    @media screen and (max-width:1000px){
+        
+        .hamburger{
+            display: block;
+        }
+        
+        .menuimg{
+            display: block;
+        }
+        .searchbutton{
+            display: block;
+        }
+        .basliq{
+            display: none;
+        }
+        .orta{
+            display: none !important;
+        }
+        .middle p{
+            display: none;
+        }
+        .middle h1{
+            font-size: 30px;
+            font-weight: bold;
+            }
+        .shekil3{
+            display: none;
+        }
+        .sol{
+            display: none;
+        }
+}
+    @media screen and (max-width:700px){
+        .middle h1{
+           font-size: 18px !important;
+        }
+        .all{
+            min-height: 200px;
+        }
     }
     
