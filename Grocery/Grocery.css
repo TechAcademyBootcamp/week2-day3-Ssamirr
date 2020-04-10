@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
 body{
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-weight: 200px;
    overflow-x: hidden;
    background: rgb(245, 243, 243);
+   
 }
 .hamburger .burger{
     width: 25px;
@@ -170,6 +171,63 @@ body{
         flex-direction: column;
         justify-content: center;
         }
+    .backet{
+        background: rgb(0, 158, 127);
+        position: fixed;
+        right: 0;
+        width: 108px;
+        height: 91px;
+        z-index: 10;
+        border-radius: 9px 0px 0px 9px;
+        
+    }
+    .topbacket{
+        text-align: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+    .item{
+        font-size: 12px;
+    }
+    .item2{
+        font-size: 12px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 6px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 158, 127);
+        margin: 0px 11px;
+        padding: 8px 0px;
+        border-style: none;
+     }
+     .inbacket{
+         width: 420px;
+         height: 100vh;
+         background: rgb(255, 255, 255);
+         position: fixed;
+         right: 0;
+         z-index: 200;
+         top: 0;
+          display: none;
+    }
+    .show{
+        display: block;
+    }
+    
+    
+    .elmnt1{
+        padding: 20px 20px 0px 20px;
+    }
+    .elmnt2{
+        color: rgb(0, 158, 127);
+        font-weight: bold;
+    }
+    .elmnt3{
+        color: rgba(0, 0, 0, 0.25);
+    }
+
         .search{
         height: 50px;
         width: 130px;
@@ -199,7 +257,7 @@ body{
         color: rgb(0, 158, 127) !important;
         transition: 0.3s;
          }
-    .althisse{
+    .althisse , .althisse button{
         color: rgb(0, 158, 127) !important;
     }
     .rounded-pill.border.bg-white.p-2.pr-4.pl-4:hover{
@@ -225,11 +283,60 @@ body{
         }
     .loadmore:hover{
         color: rgb(0, 158, 127);
-        }  
+        } 
+    .font{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 21px;
+    } 
+    .pc{
+        font-size: 13px;
+        font-weight: 400;
+        color: rgb(119, 121, 140);
+    }
     .ashagi{
         flex-wrap: wrap;
     }
-    
+    .mbanan{
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+        color: rgb(66, 69, 97);
+        line-height: 2rem;
+    }
+    .pul{
+        color: rgb(0, 158, 127);
+        font-size: 19px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900 !important;
+        margin-top: 60px;
+        margin-bottom:40px; 
+    }
+    .rounded-pill.border.bg-white.p-2.pr-4.pl-4{
+        color: rgb(0, 158, 127);
+        display: inline;
+        
+    }
+    .buttonmodal{
+        margin-top: 40px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Lato', sans-serif;
+        color: rgb(13, 17, 54);
+        background-color: rgb(253, 250, 250);
+        border-radius: 10px;
+        }
+    .buttonmodal:hover{
+        text-decoration: none;
+        color: rgb(13, 17, 54);
+    }
+    .b2{
+        margin-left: 18px;
+    }
+    .enmodal{
+        padding: 0px 0px 0px 0px;
+    }
+
 
     @media screen and (max-width:1000px){
         
@@ -262,6 +369,7 @@ body{
         .sol{
             display: none;
         }
+        
 }
     @media screen and (max-width:700px){
         .middle h1{
